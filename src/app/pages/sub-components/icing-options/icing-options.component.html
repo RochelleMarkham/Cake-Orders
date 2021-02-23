@@ -1,0 +1,112 @@
+<!--Icing Options-->
+<div fxLayout = "column">
+    <mat-card class = "mat-elevation-z3 container3">
+      <mat-card-subtitle>Icing Options</mat-card-subtitle>
+      <!--Icing Color Images-->
+      <div>
+        <h3>Whipped Icing</h3>
+        <img class = "color" src = "../../../assets/Colors/White Whipped.png">
+        <img class = "color" src = "../../../assets/Colors/Chocolate Whipped.png">
+      </div>
+      <div>
+        <h3>Buttercream Icing</h3>
+        <img class = "color" src = "../../../assets/Colors/White.png">
+        <img class = "color" src = "../../../assets/Colors/Chocolate.png">
+        <img class = "color" src = "../../../assets/Colors/Asparagus Green.png">
+        <img class = "color" src = "../../../assets/Colors/Bright Green.png">
+        <img class = "color" src = "../../../assets/Colors/Green.png">
+        <img class = "color" src = "../../../assets/Colors/Teal.png">
+        <img class = "color" src = "../../../assets/Colors/Royal Blue.png">
+        <img class = "color" src = "../../../assets/Colors/Blue.png">
+        <img class = "color" src = "../../../assets/Colors/Purple Iris.png">
+        <img class = "color" src = "../../../assets/Colors/Hot Pink.png">
+        <img class = "color" src = "../../../assets/Colors/Pink Thread.png">
+        <img class = "color" src = "../../../assets/Colors/Coral.png">
+        <img class = "color" src = "../../../assets/Colors/Amaryllis Yellow.png">
+        <img class = "color" src = "../../../assets/Colors/Yellow.png">
+        <img class = "color" src = "../../../assets/Colors/Neon Orange.png">
+        <img class = "color" src = "../../../assets/Colors/Grey.png">
+        <img class = "color" src = "../../../assets/Colors/Black.png">
+      </div>
+      <!--Base Ice Options-->
+      <h3>Base Ice Color</h3>
+      <mat-form-field class = "base">
+        <mat-label>Base Ice Color</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br/>
+      <!--Border Color Options-->
+      <h3>Border Color</h3>
+      <mat-form-field class = "base">
+        <mat-label>Border Color</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br/>
+      <!--Icing Rose Color Options-->
+      <h3>Rose Color</h3>
+      <mat-form-field class = "rose">
+        <mat-label>Rose Color 1</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class = "rose">
+        <mat-label>Rose Color 2</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <!--
+      <mat-form-field class = "rose">
+        <mat-label>Rose Color 3</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      -->
+      <br/>
+      <!--Balloon Color Options-->
+      <h3>Balloon Color</h3>
+      <mat-form-field class = "balloon">
+        <mat-label>Balloon Color 1</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class = "balloon">
+        <mat-label>Balloon Color 2</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class = "rose">
+        <mat-label>Balloon Color 3</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <!--Cupcake Color Options-->
+      <h3>Cupcake Color</h3>
+      <mat-form-field class = "cupColor">
+        <mat-label>Cupcake Color 1</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class = "cupColor">
+        <mat-label>Cupcake Color 2</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class = "cupColor">
+        <mat-label>Cupcake Color 3</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{color.value}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </mat-card>

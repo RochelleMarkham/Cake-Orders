@@ -1,0 +1,13 @@
+h3{
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.picker{
+    width: 20%;
+    height: 20%;
+}
+
+mat-form-field{
+    width: 50%;
+}

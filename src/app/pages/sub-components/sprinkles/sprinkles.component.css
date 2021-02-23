@@ -1,0 +1,42 @@
+div{
+    margin: 0 auto;
+}
+
+.first{
+    clear: left;
+}
+
+h3{
+    font-size: 100%;
+    font-weight: 400;
+}
+
+img{
+    width: 50%;
+}
+
+mat-card-content{
+    margin: 0 auto;
+    text-align: center;
+}
+
+mat-card-subtitle{
+    font-size: 125%;
+    color: black;
+}
+
+mat-select{
+    margin-top: 2%;
+}
+
+.seasonal{
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+.sprinkles{
+    width: 20%;
+    height: 20%;
+    float: left;
+}

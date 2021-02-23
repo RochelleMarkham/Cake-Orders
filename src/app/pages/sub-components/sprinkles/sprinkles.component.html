@@ -1,0 +1,83 @@
+<div fxLayout = "column">
+    <mat-card class = "mat-elevation-z3">
+        <mat-card-subtitle>Sprinkles Options</mat-card-subtitle>
+        <!--Spinkle Types Options-->
+        <div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/primary.jpg">
+                <h3>Primary</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/unicorn.jpg">
+                <h3>Unicorn</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/pastels.jpg">
+                <h3>Pastel</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/gold-glitter.jpg">
+                <h3>Gold Glitter</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/RWB.jpg">
+                <h3>Patriotic</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/black.jpg">
+                <h3>Black</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/white.jpg">
+                <h3>White</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/black-white.jpg">
+                <h3>Black & White</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/chocolate.jpg">
+                <h3>Chocolate</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/sugar.jpg">
+                <h3>Sugar Crystals</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/red.jpg">
+                <h3>Red</h3>
+            </div>
+            <div class = "sprinkles"> 
+                <img src = "../../../../assets/sprinkles/silver.jpg">
+                <h3>Silver</h3>
+            </div>
+        </div>
+        <div>
+            <mat-card-subtitle class = "first">Seasonal Sprinkles</mat-card-subtitle>
+            <div class = "seasonal"> 
+                <img src = "../../../../assets/sprinkles/valentine.jpg">
+                <h3>Valentine</h3>
+            </div>
+            <div class = "seasonal"> 
+                <img src = "../../../../assets/sprinkles/Fall.png">
+                <h3>Fall</h3>
+            </div>
+            <div class = "seasonal"> 
+                <img src = "../../../../assets/sprinkles/christmas.jpg">
+                <h3>Christmas</h3>
+            </div>
+            <div class = "seasonal"> 
+                <img src = "../../../../assets/sprinkles/Snowflakes.jpg">
+                <h3>Snowflakes</h3>
+            </div>
+        </div>
+        <form>
+            <mat-form-field>
+                <mat-label>Select Sprinkles</mat-label>
+                <mat-select>
+                    <mat-option *ngFor="let sprinkle of sprinkles" [value]="sprinkle.value">{{sprinkle.value}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </form>
+    </mat-card>
+</div>

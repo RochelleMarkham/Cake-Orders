@@ -1,0 +1,33 @@
+.five1{
+    padding-left: 18%;
+}
+
+.fiveInch{
+    display: inline-block;
+    margin-left: -20%;
+}
+
+h3{
+    font-size: 100%;
+    font-weight: 400;
+}
+
+img{
+    width: 20%;
+}
+
+mat-card-content{
+    margin: 0 auto;
+    text-align: center;
+}
+
+mat-card-subtitle{
+    font-size: 125%;
+    color: black;
+}
+
+mat-card-title{
+    font-size: 150%;
+    text-align: center;
+    color: white;
+}

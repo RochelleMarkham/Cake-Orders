@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 50%;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.footer{
+    height: 7%;
+    justify-content: center;
+}
+
+mat-toolbar{
+    background-color: rgb(0,103,160);
+    width: auto;
+}
+
+img{
+    width: 10%;
+}
