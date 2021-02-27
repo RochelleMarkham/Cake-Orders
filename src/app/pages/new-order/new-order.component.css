@@ -13,6 +13,10 @@ mat-card{
     font-size: 50%;
 }
 
+mat-card-title{
+    font-size: 200%;
+}
+
 img{
     width: 80%;
 }
